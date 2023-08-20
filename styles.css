@@ -457,3 +457,25 @@ h2{
         text-decoration: none;
         color: #ffffff;
       }
+/* Original media query CSS rules */
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  /* Add more specific styling adjustments for smaller screens */
+  /* For example, adjust padding, margins, etc. */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  /* Add more specific styling adjustments for even smaller screens */
+}
+
+/* You can add more media queries as needed */
