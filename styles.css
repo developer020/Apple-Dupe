@@ -462,7 +462,18 @@ h2{
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   body {
-    font-size: 16px; /* Adjust font size */
+    font-size: 16px;
+  }
+
+  /* Adjust main image sizes and layout for smaller screens */
+  #main-box img,
+  .mainbox2 img,
+  .mainbox3 img,
+  .mainbox4 img,
+  .mainbox5 img,
+  .mainbox6 img {
+    width: 100%; /* Make images responsive */
+    height: auto;
   }
 
   /* Add more specific styling adjustments for smaller screens */
@@ -472,7 +483,7 @@ h2{
 /* Media query for screens with a maximum width of 480px */
 @media (max-width: 480px) {
   body {
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px;
   }
 
   /* Add more specific styling adjustments for even smaller screens */
