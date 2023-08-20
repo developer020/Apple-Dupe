@@ -478,6 +478,15 @@ h2{
 
   /* Add more specific styling adjustments for smaller screens */
   /* For example, adjust padding, margins, etc. */
+  .mainbox2,
+  .mainbox3,
+  .mainbox4,
+  .mainbox5,
+  .mainbox6 {
+    padding: 20px; /* Add padding to content boxes */
+    margin: 20px auto; /* Center content boxes with margin */
+    max-width: 90%; /* Limit the maximum width of content boxes */
+  }
 }
 
 /* Media query for screens with a maximum width of 480px */
@@ -486,7 +495,16 @@ h2{
     font-size: 14px;
   }
 
-  /* Add more specific styling adjustments for even smaller screens */
+    /* Add more specific styling adjustments for the smallest screens */
+  .mainbox2,
+  .mainbox3,
+  .mainbox4,
+  .mainbox5,
+  .mainbox6 {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 95%;
+
 }
 
 /* You can add more media queries as needed */
